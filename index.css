@@ -1,0 +1,98 @@
+/* common css start   */
+
+.font-light {
+  font-family: "Merriweather", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.font-regular {
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font-bold {
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.fontOrange{
+    color: #FEA301;
+}
+
+.fontBlue{
+    color: #01ACFD;
+}
+.fontBlack{
+    color: #111111;
+}
+.fontWhite
+{
+    color: #F7F7F7;
+}
+
+body
+{
+    color: #F7F7F7;
+}
+/* common css end   */
+
+/* css for navBar start */
+.navContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.nav{
+    width: 1160px;
+    /* display: flex; */
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+    grid-template-areas: "a b c";
+}
+
+.logoName{
+    grid-area: a;
+    display: flex;
+}
+
+.menu{
+    grid-area: b;
+    display: flex;
+}
+
+.menu li{
+    list-style: none;
+    margin-left: 1rem;
+}
+.menu li a{
+    text-decoration: none;
+}
+
+
+
+.menu li:nth-child(1){
+    color:#FEA301 ;
+}
+
+.navButton{
+    grid-area: c;
+
+}
+/* css for navBar end */
+
+/* css for navBar start */
+/* css for navBar end */
+/* css for navBar start */
+/* css for navBar end */
+/* css for navBar start */
+/* css for navBar end */
+/* css for navBar start */
+/* css for navBar end */
+/* css for navBar start */
+/* css for navBar end */
